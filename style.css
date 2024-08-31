@@ -1,0 +1,145 @@
+* {
+    margin: 5px;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 95vh;
+    background-color: black;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(56, 34, 4);
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #E7D3D3;
+    padding: 1em 0 1em 0;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+    color: black;
+    text-decoration: underline;
+}
+
+.text {
+    background-color: #E7D3D3;
+    padding: 1.5em 0 1.5em 0;
+    font-family: system-ui;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+}
+
+.left {
+    background-color: #E7D3D3;
+
+    padding: 3em 0 3em 0;
+    flex: 1 1 100px;
+    border: box 1px;
+
+}
+
+table {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+img {
+    padding: 0;
+    width: 90%;
+    height: 100%;
+}
+
+main {
+    background-color: #E7D3D3;
+    padding: 3em 0 3em 0;
+    flex: 3 3 200px;
+}
+
+h2,p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.box {
+    background-color: #DEC3C4;
+    border: 1px solid #be7979;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+    color: rgb(15, 10, 10);
+}
+
+
+.box h2 {
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-size: 16px;
+    color: #555;
+}
+
+footer {
+    background-color: #E7D3D3;
+    padding: 1em 0 1em 0;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.imageinstagram {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+}
+
+.imagemail {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+
+}
+
+.imagelink {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.imagephone {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+
+}
+.botton{
+    background-color: #E7D3D3;
+    border-color: #DEC3C4;
+    border-style: solid;
+    border-width: 1px;
+    color: aliceblue;
+    height: 35px;
+    width: 62px;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
