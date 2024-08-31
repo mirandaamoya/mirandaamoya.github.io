@@ -10,6 +10,11 @@
 
 <body>
     <!--Header-->
+    <div id="popup" class="popup hidden" onclick="showExperience()">
+        <div id="popup-container" class="popup-container">
+            Agregar mi experiencia aqui.
+        </div>
+    </div>
 
     <header>Miranda Moya's Webpage</header>
     <div class="text">
@@ -21,58 +26,43 @@
 
     <div class="main">
         <aside class="left"><img src="Images/123.jpg" alt="Images">
-
         </aside>
         <!--Main content-->
         <main>
             <div class="container">
                 <div class="box" id="introduction">
                     <h2>Introduction</h2>
-                    <p>My name is Miranda Moya and I work as Service Desk agent and I am a student of Software
-                        Development Engineering </p>
+                    <p>My name is Miranda Moya and I work as Service Desk agent and I am a student of Software Development Engineering </p>
                 </div>
-                <div class="box" id="work-experience">
+                <div class="box-button" id="work-experience" onclick="showExperience()">
                     <h2>Work Experience</h2>
-
                 </div>
-                <div class="box" id="education">
+                <div class="box" id="education" onclick="showEducation()">
                     <h2>Education</h2>
-
                 </div>
-                <div class="box" id="volunteering">
+                <div class="box" id="volunteering" onclick="showVolunteer()">
                     <h2>Volunteer</h2>
-
                 </div>
             </div>
-
-
-
         </main>
     </div>
-
-
-
     <footer>
         <div class="logos" id="logos">
             <div class="imageinstagram" id="imageinstagram">
                 <img src="Images/Instagram Icon.png" alt="imageinstagram" style="border-radius: 20%;">
-
             </div>
             <div class="imagemail" id="imagemail">
                 <img src="Images/email icon.png" alt="imagemail" style="border-radius: 30%;">
-
             </div>
             <div class="imagelink" id="imagelink">
                 <img src="Images/linkl.png" alt="imagelink" >
-
             </div>
             <div class="imagephone" id="imagephone">
                 <img src="Images/phone logo.png" alt="imagephone">
-
             </div>
         </div>
     </footer>
-
+    <script src="main.js"></script>
 </body>
 
 </html>

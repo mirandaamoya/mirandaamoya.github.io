@@ -62,7 +62,8 @@ main {
     flex: 3 3 200px;
 }
 
-h2,p {
+h2,
+p {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -83,7 +84,6 @@ h2,p {
     color: rgb(15, 10, 10);
 }
 
-
 .box h2 {
     margin-bottom: 10px;
 }
@@ -91,6 +91,16 @@ h2,p {
 .box p {
     font-size: 16px;
     color: #555;
+}
+
+.box-button {
+    background-color: #DEC3C4;
+    border: 1px solid #be7979;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+    color: rgb(15, 10, 10);
+    cursor: pointer;
 }
 
 footer {
@@ -131,7 +141,8 @@ footer {
     border-radius: 20px;
 
 }
-.botton{
+
+.botton {
     background-color: #E7D3D3;
     border-color: #DEC3C4;
     border-style: solid;
@@ -142,4 +153,28 @@ footer {
     border-radius: 2px;
     cursor: pointer;
 
+}
+
+.popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+}
+
+.popup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #be7979;
+    width: 50%;
+    height: 50%;
+}
+
+.hidden {
+    display: none;
 }
